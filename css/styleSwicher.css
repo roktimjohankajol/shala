@@ -1,0 +1,51 @@
+.style-swicter{
+    position: fixed;
+    top: 100px;
+    background: #fff;
+    right: 0;
+    z-index: 9999;
+    padding: 15px;
+    border:1px solid #d4d4e3;
+    border-right: none;
+    width: 150px;
+    transform: translateX(100%);
+}
+.style-swicter.active{
+    transform: translateX(0%);
+}
+.style-swicter h5{
+    font-size: 16px;
+    line-height: 26px;
+    color:#222222;
+    shape-margin: 8px;
+    border-bottom: 1px solid #d4d4e3;
+}
+.style-swicter ul{
+    margin: 0;
+    padding: 0;
+}
+.style-swicter ul li{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.style-swicter .toggle-switch{
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    background: #fff;
+    top: -1px;
+    left: -46px; 
+    border:1px solid #d4d4e3;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.style-swicter .toggle-switch i{
+    line-height: 43px;
+    font-size: 25px; 
+}

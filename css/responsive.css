@@ -1,0 +1,28 @@
+@media only screen and (max-width: 992px) {
+   #about {
+        margin-top: 20em;
+    }
+    img.watch_image {
+        margin-left: -7em;
+    }
+ 
+}
+
+@media only screen and (max-width: 768px) {
+
+    #top-section .top-right img {
+        width: 400px;
+        height: 400px;
+        margin-top: 5em;
+    }
+    #newsletter .subscribe{
+        width: 400px;
+    }
+    .navbar .navbar-brand{
+        margin-left: 40px;
+    }
+    #about{
+        margin-top: 20em;
+    }
+}
+

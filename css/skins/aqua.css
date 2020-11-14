@@ -1,0 +1,52 @@
+#testimonial::before,
+#newsletter::before,
+#newsletter .overlay,
+#footerNav,
+#home,
+#top-section,
+.footerMenu,
+#contact form button,
+#features .card:hover,
+#features .card:hover i,
+#features .card:hover h3,
+#features .card:hover p,
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev
+{
+    background-color:#05b3b6;
+}
+.preloader .loader{
+    border-right: 5px solid #05b3b6;
+}
+#features a,
+#about .about-right a,
+#product .product-top a,
+#testimonial .testimonial-top a,
+#faq .faq-top a,
+#newsletter .newsletter-top a,
+#contact .media .icon,
+#contact .contact-top a
+{
+    background: rgba(5, 179, 182, 0.36);
+}
+.customer-side .card .media img{
+    border:3px solid #05b3b6;
+}
+#top-section .top-left a,
+#about .about-right a,
+#about .about-right i,
+#contact .contact-top a,
+#features .card i,
+#contact .media i,
+#contact .media .media-body h6,
+#product .product-top a,
+#product .product-price .new-price,
+#footerNav .social-icon a i:hover,
+.btn,
+#faq .faq-top a,
+#faq p span,
+#faq .card-header a,
+#product .product-img:hover .overlay a,
+.customer-side .card .customer-details .customer-content h6,
+#features a{
+    color:#05b3b6;
+}
